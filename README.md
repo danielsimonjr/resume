@@ -42,27 +42,56 @@ Orchestrating hardware, software, manufacturing, quality, and program management
 
 ## 💼 Professional Experience
 
-### Lockheed Martin Aeronautics | Fort Worth, TX
+### Lockheed Martin Corporation | Grand Prairie, TX
 
-#### Senior Test Engineer (2019 – Present)
-*Advanced Test Engineering for F-16 and F-35 Avionics Systems*
+#### Senior Test Engineer (March 2021 – Present)
+*Test Procedure Set System Design, Development, Product Support & Sustainability*
 
-- **Systems Engineering for Test Equipment:** Applied vision-to-production systems thinking to drive complete test solution development from conceptual requirements through deployment, formal qualification, and sustainment for F-16 and F-35 Line-Replaceable Units (LRUs)
-- **Advanced TPS Development:** Architected and implemented Test Program Sets (TPS) integrating complex hardware Interface Devices (IDs) with sophisticated diagnostic software across multiple Automated Test Equipment (ATE) platforms (TEAM, ELITE-7, UCTE, VIPERS)
-- **Cross-Functional Technical Leadership:** Led multi-disciplinary teams spanning electrical engineering, software engineering, manufacturing engineering, and quality assurance through Engineering Change Proposals (ECPs), manufacturing readiness reviews, and deployment to production
-- **System Safety & Compliance:** Ensured rigorous compliance with DO-178C (software), DO-254 (hardware), and MIL-STD-882E (system safety) throughout all test system development, contributing to mission-critical safety assurance
-- **Electrical Design & Circuit Development:** Designed custom Interface Devices incorporating data acquisition, power control, and signal conditioning circuits, producing detailed schematics and manufacturing-ready PCB layouts using Altium Designer
-- **Diagnostic Logic Architecture:** Translated expert technician troubleshooting heuristics into formal diagnostic algorithms, enabling reproducible fault isolation procedures that reduced LRU repair cycle time
-- **Configuration Management & Documentation:** Established and maintained comprehensive technical documentation baselines (Test Requirements Documents, Interface Control Documents, Test Procedure Specifications) under formal configuration control
+- Architect and deliver complete Test Program Set solutions spanning hardware Interface Devices, test software, and technical documentation—applying systems thinking from initial requirements analysis through production deployment and field sustainment
+- Lead cross-functional teams through formal enterprise engineering processes, coordinating hardware design, software development, manufacturing integration, quality assurance, and configuration management to ensure TPS systems meet rigorous defense standards
+- Design sophisticated fault isolation algorithms and diagnostic workflows that enable field technicians to troubleshoot complex avionics failures efficiently, reducing mean time to repair and enhancing operational readiness
+- Engineer for decades-long sustainability by creating modular, upgradeable architectures that accommodate platform evolution, component obsolescence, and emerging test requirements without complete system redesigns
+- Manage complete technical data packages including block diagrams, schematics, bills of materials, test procedures, operator instructions, and verification/validation documentation
 
-#### Principal Test Engineer (2013 – 2019)
-*F-16 Avionics Test Engineering and Digital Modular Avionics (DMA) Integration*
+### BAE Systems Inc. | Dallas, TX
 
-- **F-16 Sustainment & Modernization:** Provided critical test engineering support for F-16 Viper upgrades, ensuring backward compatibility with legacy systems while enabling integration of modern Digital Modular Avionics (DMA) technology
-- **LabVIEW/TestStand Development:** Architected and coded sophisticated test sequences in NI TestStand integrated with LabVIEW Virtual Instruments (VIs) for automated functional verification, environmental stress screening, and acceptance testing
-- **Test Requirements Engineering:** Translated complex system specifications and LRU Interface Control Documents (ICDs) into detailed, unambiguous Test Requirements Documents (TRDs), ensuring traceable coverage of all functional and performance parameters
-- **Technical Mentorship:** Guided junior engineers in test architecture, diagnostic algorithm development, and disciplined software engineering practices (version control, code review, modular design)
-- **Process Improvement & Automation:** Identified and implemented workflow optimizations reducing test execution time by 35% through parallelization strategies, intelligent test ordering, and elimination of redundant measurements
+#### Senior Test Program Set Engineer (July 2020 – March 2021)
+
+- Developed advanced TPS solutions for F-16 and F-35 Line Replaceable Units (LRUs), creating Integrated Test Adapters (ITAs) for both portable flight-line testers and rack-based automatic test stations (LMSTAR)
+- Collaborated directly with customers to define technical requirements, provide engineering inputs for formal reviews, and deliver technical presentations on test methodologies and system capabilities
+- Engineered test software using NI TestStand and LabWindows/CVI, implementing complex measurement sequences and real-time control algorithms for avionics verification
+
+#### Test Program Set Engineer II (July 2016 – June 2020)
+
+- Designed and documented TPS hardware and software for assigned F-16/F-35 Units Under Test, ensuring compatibility with semi-automatic flight-line testers and sophisticated backshop automatic test stations
+- Developed comprehensive test procedures that balance thoroughness with operational efficiency, enabling technicians to perform accurate diagnostics under time-constrained field conditions
+
+### Texas Instruments Inc. | Dallas, TX
+
+#### Battery ChemID Engineering Technician III (February 2016 – July 2017)
+*Contract Position*
+
+- Architected custom test fixtures and experimental setups for battery cell electrical characterization, supporting Chemistry Electronic Identification (ChemID) algorithm development
+- Applied mathematical modeling and data analysis using MathCad to identify electronic twins in battery populations, accelerating time-from-design-to-production
+- Managed Arbin Instruments battery test systems, verifying data integrity and troubleshooting automated measurement sequences
+
+### Raytheon Inc. | Dallas, TX
+
+#### Senior Software Engineer II (March 2015 – January 2016)
+*Contract Position*
+
+- Documented architecture and design for Automated Test Set software, creating technical specifications that served as blueprints for implementation and maintenance
+- Implemented and integrated test control methods in NI LabWindows/CVI and TestStand for military subcontractor avionics modules
+- Completed comprehensive training in Systems Engineering principles including requirements development, functional analysis, architecture design, integration/verification/validation (IV&V), and technical risk management
+
+### Texas Instruments Inc. | Dallas, TX
+
+#### Interim Test/Product Engineer – Senior Engineering Technician III (December 2003 – March 2015)
+
+- Pioneered NI TestStand and LabVIEW PXI-based test systems for characterizing and qualifying mixed-signal power and control ICs, enabling data-driven decisions before release-to-production
+- Developed comprehensive Product Characterization and Qualification Plans aligned with AEC-Q100 automotive standards, managing package qualification, process qualification, burn-in, ESD testing, and latch-up verification
+- Designed specialized test apertures and bench setups for ESD testing (HBM, CDM, MM models) and latch-up characterization, ensuring robust semiconductor reliability
+- Operated and programmed multiple ATE platforms (TI IMPACT, TL1, VLCT, Teradyne iFlex/Eagle), troubleshooting complex failures to component level using signal analyzers and bench instrumentation
 
 ---
 
