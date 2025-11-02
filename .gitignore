@@ -18,3 +18,9 @@ Thumbs.db
 *.tmp
 *.bak
 *.log
+
+# Private/Internal Files (keep local only)
+*.docx
+*.pdf
+*DEPLOYMENT_GUIDE*.md
+README.md
