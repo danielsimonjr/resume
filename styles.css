@@ -519,6 +519,26 @@ body {
     color: white;
 }
 
+.badge-ai {
+    background-color: #10B981;
+    color: white;
+}
+
+.badge-control {
+    background-color: #F59E0B;
+    color: white;
+}
+
+.badge-research {
+    background-color: #8B5CF6;
+    color: white;
+}
+
+.badge-open {
+    background-color: var(--primary-color);
+    color: white;
+}
+
 .project-description {
     font-size: 1rem;
     line-height: 1.7;
