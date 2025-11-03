@@ -1,6 +1,116 @@
 // Resume Website Interactive Features
 // This JavaScript enhances user experience with smooth animations and navigation updates
 
+// ========== Resume Download Function ==========
+// Cross-platform resume download that works on all devices including Android
+function downloadResume() {
+    // On mobile devices (especially Android), print dialog allows saving as PDF
+    // This is the most reliable cross-platform solution
+    if (confirm('Would you like to save this resume as PDF? Click OK to open the print dialog, then choose "Save as PDF" as your printer.')) {
+        window.print();
+    } else {
+        // Alternative: Download as plain text file
+        generateTextResume();
+    }
+}
+
+function generateTextResume() {
+    // Generate a plain text version of the resume
+    const resumeText = `DANIEL SIMON JR.
+Electrical Engineer | Systems Thinker | Technical Leader
+Email: danielsimonjr@users.noreply.github.com
+LinkedIn: linkedin.com/in/danielsimonjr
+GitHub: github.com/danielsimonjr
+
+PROFESSIONAL PROFILE
+====================
+I am a systems engineer with a unique integration of philosophy, science, and technology, transforming complex requirements into sustainable technical solutions. Specializing in Test Program Set (TPS) development for defense avionics, I bring proven expertise spanning the complete product lifecycle from vision to production.
+
+My approach is grounded in deep systems thinking that bridges user requirements, hardware architecture, software implementation, and long-term sustainability. This ensures test systems remain maintainable and upgradeable throughout decades of platform evolution.
+
+CORE COMPETENCIES
+==================
+• Systems Engineering - Vision-to-production thinking spanning requirements definition, architecture design, implementation, integration, verification, and sustainment
+• TPS Development - Complete design and implementation of hardware/software test systems for F-16 and F-35 avionics LRUs
+• Automated Test Equipment - Expert-level proficiency with NI TestStand, LabVIEW, and LabWindows/CVI
+• Hardware Design - Circuit-level design expertise for data acquisition, instrumentation, control, and power systems
+• Diagnostic Logic - Architecting test sequences that mirror expert troubleshooting workflows
+• Cross-Functional Leadership - Orchestrating hardware, software, manufacturing, quality, and program management teams
+
+PROFESSIONAL EXPERIENCE
+========================
+
+Senior Test Engineer | Lockheed Martin Corporation
+March 2021 – Present
+• Architect and deliver complete Test Program Set solutions spanning hardware Interface Devices, test software, and technical documentation
+• Lead cross-functional teams through formal enterprise engineering processes
+• Design sophisticated fault isolation algorithms and diagnostic workflows
+• Engineer for decades-long sustainability by creating modular, upgradeable architectures
+
+Senior Test Program Set Engineer | BAE Systems Inc.
+July 2020 – March 2021
+• Developed advanced TPS solutions for F-16 and F-35 Line Replaceable Units
+• Collaborated directly with customers to define technical requirements
+• Engineered test software using NI TestStand and LabWindows/CVI
+
+Test Program Set Engineer II | BAE Systems Inc.
+July 2016 – June 2020
+• Designed and documented TPS hardware and software for F-16/F-35 Units Under Test
+• Developed comprehensive test procedures balancing thoroughness with operational efficiency
+
+Battery ChemID Engineering Technician III | Texas Instruments Inc. (Contract)
+February 2016 – July 2017
+• Architected custom test fixtures and experimental setups for battery cell electrical characterization
+• Applied mathematical modeling and data analysis using MathCad
+
+Senior Software Engineer II | Raytheon Inc. (Contract)
+March 2015 – January 2016
+• Documented architecture and design for Automated Test Set software
+• Implemented and integrated test control methods in NI LabWindows/CVI and TestStand
+• Completed comprehensive training in Systems Engineering principles
+
+Interim Test/Product Engineer | Texas Instruments Inc.
+December 2003 – March 2015
+• Pioneered NI TestStand and LabVIEW PXI-based test systems for characterizing and qualifying mixed-signal power and control ICs
+• Developed comprehensive Product Characterization and Qualification Plans aligned with AEC-Q100 automotive standards
+• Designed specialized test apertures for ESD testing and latch-up characterization
+
+EDUCATION
+=========
+Bachelor of Science in Electrical Engineering | University of Texas at Dallas | 2012
+Associate of Science in Mathematics | Richland College | 2008
+United States Army | Texas National Guard | 1997-2000 | Army Commendation Medal
+
+CERTIFICATIONS
+==============
+NI TestStand I & II | NI LabWindows/CVI I & II | NI LabVIEW I & II | Altium Designer | DoD Secret Clearance
+
+TECHNICAL PROFICIENCIES
+========================
+Test & Automation: NI TestStand, NI LabVIEW, NI LabWindows/CVI, TI IMPACT, Teradyne iFlex, ANSI C
+Design Tools: Altium Designer, NI Multisim, Mentor Graphics, PCB Layout
+Instrumentation: Oscilloscopes, Function Generators, DAQ Systems, PXI Modules, Signal Analyzers
+Systems & Protocols: GPIB, Ethernet, RS-232, Mixed-Signal IC Testing, DoD Processes
+`;
+
+    // Create a Blob from the text
+    const blob = new Blob([resumeText], { type: 'text/plain' });
+
+    // Create a temporary download link
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'Daniel_Simon_Jr_Resume.txt';
+
+    // Trigger download
+    document.body.appendChild(a);
+    a.click();
+
+    // Clean up
+    document.body.removeChild(a);
+    window.URL.revokeObjectURL(url);
+}
+
 // Wait for the DOM (Document Object Model) to fully load before running scripts
 // This ensures all HTML elements exist before we try to manipulate them
 document.addEventListener('DOMContentLoaded', function() {
