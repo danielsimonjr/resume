@@ -183,6 +183,8 @@ body {
     transition: all var(--transition-base);
     cursor: pointer;
     border: 2px solid transparent;
+    font-family: inherit;
+    font-size: inherit;
 }
 
 .btn-primary {
