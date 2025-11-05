@@ -21,6 +21,5 @@ Thumbs.db
 
 # Private/Internal Files (keep local only)
 *.docx
-*.pdf
 *.htm
 *DEPLOYMENT_GUIDE*.md
